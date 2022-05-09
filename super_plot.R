@@ -10,6 +10,7 @@ if (ck==FALSE) {
   devtools::install_github("bcm-uga/LEA")
 }
 library(parallel)
+library(raster)
 
 #give path to csv file
 # version 1.1
